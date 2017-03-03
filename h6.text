@@ -1,0 +1,106 @@
+Q1. 
+Answer:
+         A   B   C    COLOR
+         T   T   T     BLUE
+         F   T   T     YELLOW  
+         T   F   T     GREEN
+         F   F   F     YELLOW
+         T   T   F     YELLOW
+         F   T   F     YELLOW
+         T   F   F     RED
+         F   F   F     YELLOW
+
+Q2. 
+
+Answer:  A   B   C    COLOR
+         T   T   T     BLUE
+         F   T   T     BLUE
+         T   F   T     BLUE
+         F   F   F     BLUE
+         T   T   F     BLUE
+         F   T   F     BLUE
+         T   F   F     BLUE
+         F   F   F     BLUE
+           
+   
+
+
+Q3.1 
+
+        A    B         COLOR
+        T    T         BLUE
+        F    T         BLUE
+        T    F         ----
+        F    F         ----
+        
+
+3.2
+
+        A    B         COLOR
+        T    T         ----
+        F    T         GREEN
+        T    F         GREEN
+        F    F         GREEN
+        
+        
+3.3
+
+        A    B         COLOR
+        T    T         YELLOW
+        F    T         YELLOW
+        T    F         YELLOW
+        F    F         YELLOW  
+        
+3.4
+
+        A    B         COLOR
+        T    T         WHITE
+        F    T         WHITE
+        T    F         ----
+        F    F         WHITE  
+        
+        
+  
+
+Q5. 
+
+    5.1. How many times are the lines inside the WHILE loop executed?
+         lines inside the WHILE loop executed five times (0-4)
+    5.2. What is the final value of i?
+         the final value of i is 5 (5 will not executed becuase it break 
+         the condition)
+
+Q6.
+ 
+ Answer the following:
+    5.1. What is the final value of "holder" when the program is done running?
+         the final value of holder is 20
+    5.2. What is the final value of "i" when the program is done running?
+         the final value of i is 10 (10 will not executed becuase it break 
+         the condition)
+
+Q7. Read the following program:
+
+variable x = 0
+variable y = x - 5
+variable z = y
+
+variable d = x + 5
+variable e = d * 5
+variable z = e - d 
+variable x = x + 2
+
+Print all the final variable values at the end of the program
+x=2 
+y=-5
+z=-5
+d=5
+e=25
+z=20
+x=2
+
+Q8.
+HISTTIMEFORMAT="%d/%m/%y %T "
+history
+history | wc -l
+alias h="history | wc -l" 
